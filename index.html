@@ -5,16 +5,13 @@
   <title>yondiazz</title>
   <style>
     body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: black url("negros.GIF") no-repeat center center fixed;
-  background-size: cover;
-  color: white;
-  text-align: center;
+  display: flex;		
+  flex-direction: column;
+  min-height: 100vh;
 }
 
     /* ASAP de fondo */
-		.background-text {
+  .background-text {
   position: fixed;
   top: 52%;
   left: 50%;
@@ -36,10 +33,17 @@ header {
     z-index: 1;
   }
 
- footer {
-    position: relative;
-    margin-top: 100px;
-    padding: 20px 0; 
+section {
+  flex; 1;
+  padding: 20px;
+}
+
+footer {
+	margin-top: auto;
+	text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff; 
   }
 </style>
 </head>
